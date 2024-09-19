@@ -36,24 +36,24 @@
     - 사용이 쉽고, 마크업 언어인 HTML 태그에 비해 간단하기 때문에 문서 작성이 편리
     - 마크다운을 지원하는 프로그램이나 사이트에서만 사용 가능
     ## Header
-        * ... h{n} : #과 글자 사이에는 띄어쓰기로 구분
+    ... h{n} : #과 글자 사이에는 띄어쓰기로 구분
 
     ## 줄바꿈
-        * Enter키 2번
+    Enter키 2번
 
     ## 순서가 있는 목록(ol : Ordered List)
 
     ## 구분선(Division Line)
-        * 하이픈(-) 혹은 asterisk(*) 3개 이상 사용
+    하이픈(-) 혹은 asterisk(*) 3개 이상 사용
 
     ## 코드블럭(Code Block)
-        * 코드를 기준으로 위아래 빈 한 줄씩 추가
-        * 코드를 기준으로 4칸 공백
+    코드를 기준으로 위아래 빈 한 줄씩 추가
+    코드를 기준으로 4칸 공백
 
         private String str;
         private int count;
 
     ## 하이퍼링크(Hyperlink)
-        * <>(앵글브라켓) 안에 HTTP(S)를 포함하는 주소 입력
-        * <https://www.naver.com>
+    <>(앵글브라켓) 안에 HTTP(S)를 포함하는 주소 입력
+    <https://www.naver.com>
 
