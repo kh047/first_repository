@@ -13,3 +13,17 @@
     * Git은 commit할 때마다, 이 정보를 사용(한 번 커밋한 뒤, 정보를 변경할 수 없음)
 7. 초기화
     : git init
+8. 원격저장소 설정
+    * git remote add first_remote_repo https://github.com/.../first_repository.git
+9. workspace 폴더 내 README.md 파일 생성 및 내용 작성
+10.상태 확인
+    * git status
+11. 저장소에 변경된 파일을 관리할 수 있도록 추가
+    * git add .
+    * git add README.md
+12. Local Repository에 저장
+    * git commit -m "first_commit"
+    * commit 이름은 해당 작업에서 추가/변경된 사항을 간략히 작성
+   * 다른 작업자가 알아볼 수 있도록 되도록이면 영어로 작성하는 것을 추천
+13. Remote Repository에 저장
+    * git push first_remote_repo master
